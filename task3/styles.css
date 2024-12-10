@@ -1,0 +1,55 @@
+body {
+    background-color: #fff8e1; /* Светло-желтый фон */
+}
+
+header {
+    background-color: #ffcc80; /* Оранжевый цвет для заголовка */
+    text-align: center;
+}
+
+main {
+    display: flex;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; /* Скругленные края для изображений пончиков */
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+.card-container {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around; /* Равномерное распределение карточек */
+}
+
+.card {
+    background-color: #fff3e0; /* Светло-оранжевый фон для карточек */
+    margin: 20px;
+    width: 100%; /* Ширина карточки */
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    border-radius: 10px; /* Скругленные углы для карточек */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+button {
+    background-color: #ff9800; /* Оранжевая кнопка */
+    border: none;
+    border-radius: 10px;
+    width: 70px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column; /* Выравнивание элементов в колонку */
+    align-items: center; /* Выравнивание по центру */
+}
